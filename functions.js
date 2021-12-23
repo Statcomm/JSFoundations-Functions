@@ -21,9 +21,9 @@ function greet(name) {
  */
 function isOdd(n) {
   if (n%2 != 1) {
-    return true
-  } else {
     return false
+  } else {
+    return true
   }
 
 }
@@ -39,9 +39,9 @@ function isOdd(n) {
  */
 function oddsSmallerThan(n) {
   if (n%2 != 1) {
-    console.log(n/2)
+    return (n/2)
   } else {
-    console.log(n/2 - 0.5)
+    return (n/2 - 0.5)
   }
 }
 
